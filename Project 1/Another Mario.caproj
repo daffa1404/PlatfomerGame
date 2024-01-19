@@ -58,51 +58,109 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="SmallIdle" pingpong="0" repeatcount="1" repeatto="0" sid="344332984543640" speed="5">
-                        <frame duration="1" hotspotX="0.538462" hotspotY="0.5" original-source="C:\Users\rachmat.yulianto\Documents\PlatfomerGame\Project 1\Platformer\Abstract Platformer\PNG\Players\Mario\SmallIdle.png">
+                        <frame duration="1" hotspotX="0.538462" hotspotY="0.5" original-source="C:\Users\rachmat.yulianto\Documents\PlatfomerGame\Project 1\Platformer\Abstract Platformer\PNG\Players\Mario\SmallIdle.png" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="SmallRunning" pingpong="0" repeatcount="1" repeatto="0" sid="370487936723158" speed="15">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
-                                <point x="0.153846" y="0.125" />
-                                <point x="0.461538" y="0" />
-                                <point x="0.923077" y="0.0625" />
-                                <point x="0.923077" y="0.5" />
-                                <point x="1" y="1" />
-                                <point x="0.461538" y="0.8125" />
-                                <point x="0" y="1" />
+                                <point x="0.15" y="0.15" />
+                                <point x="0.85" y="0.15" />
+                                <point x="0.85" y="0.9" />
+                                <point x="0.15" y="0.9" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.25" y="0.1" />
+                                <point x="0.85" y="0.1" />
+                                <point x="0.85" y="0.9" />
+                                <point x="0.253125" y="0.9" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.1" y="0.1" />
+                                <point x="0.9" y="0.1" />
+                                <point x="0.9" y="0.9" />
+                                <point x="0.1" y="0.9" />
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="3" loop="0" name="SmallRunning" pingpong="0" repeatcount="1" repeatto="0" sid="370487936723158" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
                     <animation framecount="1" loop="0" name="SmallJumping" pingpong="0" repeatcount="1" repeatto="0" sid="250487088279610" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.529412" hotspotY="0.5" original-source="C:\Users\rachmat.yulianto\Documents\PlatfomerGame\Asset penting\Platformer\Abstract Platformer\PNG\Players\Mario\SmallJump.png" />
                     </animation>
                     <animation framecount="1" loop="0" name="SmallSkidding" pingpong="0" repeatcount="1" repeatto="0" sid="126353828994740" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rachmat.yulianto\Documents\PlatfomerGame\Asset penting\Platformer\Abstract Platformer\PNG\Players\Mario\SkidSmall.png">
+                            <collision-poly>
+                                <point x="0.125" y="0.0078125" />
+                                <point x="0.9375" y="0" />
+                                <point x="0.9375" y="1" />
+                                <point x="0.125" y="1" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="BigIdle" pingpong="0" repeatcount="1" repeatto="0" sid="792668297892794" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.75" original-source="C:\Users\rachmat.yulianto\Documents\PlatfomerGame\Asset penting\Platformer\Abstract Platformer\PNG\Players\Mario\BigIdle.png" />
                     </animation>
-                    <animation framecount="3" loop="0" name="BigRunning" pingpong="0" repeatcount="1" repeatto="0" sid="224301234092196" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <animation framecount="3" loop="0" name="BigRunning" pingpong="0" repeatcount="1" repeatto="0" sid="224301234092196" speed="15">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.71875">
+                            <collision-poly>
+                                <point x="0.266667" y="0" />
+                                <point x="0.8" y="0" />
+                                <point x="0.8" y="1" />
+                                <point x="0.266667" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.71875">
+                            <collision-poly>
+                                <point x="0.3" y="0" />
+                                <point x="0.766667" y="0" />
+                                <point x="0.766667" y="0.96875" />
+                                <point x="0.3" y="0.96875" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.71875">
+                            <collision-poly>
+                                <point x="0.266667" y="0.00390625" />
+                                <point x="0.8" y="0" />
+                                <point x="0.8" y="0.96875" />
+                                <point x="0.266667" y="0.96875" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="BigJumping" pingpong="0" repeatcount="1" repeatto="0" sid="106789377842293" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.71875" original-source="C:\Users\rachmat.yulianto\Documents\PlatfomerGame\Asset penting\Platformer\Abstract Platformer\PNG\Players\Mario\BigJumping.png" />
                     </animation>
-                    <animation framecount="1" loop="0" name="BigSkidding" pingpong="0" repeatcount="1" repeatto="0" sid="128780042367445" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <animation framecount="1" loop="0" name="BigSkidding" pingpong="0" repeatcount="1" repeatto="0" sid="128780042367445" speed="3">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.75" original-source="C:\Users\rachmat.yulianto\Documents\PlatfomerGame\Asset penting\Platformer\Abstract Platformer\PNG\Players\Mario\BigSkid.png" />
                     </animation>
                     <animation framecount="1" loop="0" name="BigDucking" pingpong="0" repeatcount="1" repeatto="0" sid="453329051954049" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.4375" original-source="C:\Users\rachmat.yulianto\Documents\PlatfomerGame\Asset penting\Platformer\Abstract Platformer\PNG\Players\Mario\DuckBig.png" />
                     </animation>
                     <animation framecount="1" loop="0" name="Dead" pingpong="0" repeatcount="1" repeatto="0" sid="561007149185441" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.533333" hotspotY="0.5" original-source="C:\Users\rachmat.yulianto\Documents\PlatfomerGame\Asset penting\Platformer\Abstract Platformer\PNG\Players\Mario\Dead.png" />
                     </animation>
-                    <animation framecount="1" loop="0" name="Grow" pingpong="0" repeatcount="1" repeatto="0" sid="551076397262544" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <animation framecount="9" loop="0" name="Grow" pingpong="0" repeatcount="1" repeatto="0" sid="551076397262544" speed="10">
+                        <frame duration="1" hotspotX="0.538462" hotspotY="0.5" original-source="C:\Users\rachmat.yulianto\Documents\PlatfomerGame\Asset penting\Platformer\Abstract Platformer\PNG\Players\Mario\SmallIdle.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.75" original-source="C:\Users\rachmat.yulianto\Documents\PlatfomerGame\Asset penting\Platformer\Abstract Platformer\PNG\Players\Mario\BigIdle.png" />
+                        <frame duration="1" hotspotX="0.538462" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.75" />
+                        <frame duration="1" hotspotX="0.538462" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.538462" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.75" />
+                        <frame duration="1" hotspotX="0.538462" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.75" />
+                    </animation>
+                    <animation framecount="9" loop="0" name="Shrink" pingpong="0" repeatcount="1" repeatto="0" sid="365801702016638" speed="10">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.75" />
+                        <frame duration="1" hotspotX="0.538462" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.75" />
+                        <frame duration="1" hotspotX="0.538462" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.538462" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.75" />
+                        <frame duration="1" hotspotX="0.538462" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.75" />
+                        <frame duration="1" hotspotX="0.538462" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
