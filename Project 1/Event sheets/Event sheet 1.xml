@@ -2,7 +2,11 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
+<<<<<<< HEAD
     <events>
         <include>Mario</include>
     </events>
+=======
+    <events />
+>>>>>>> e9d6f0be68da4b455d3923c4c252e785ddef982b
 </c2eventsheet>
