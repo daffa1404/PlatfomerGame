@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Mario</name>
+    <events>
+        <event-group description="A place for all the events and actions for Mario&apos;s animations." sid="690584800189985" title="Mario Animations">
+            <sub-events>
+                <event-block sid="355212195809503">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="981910353502650" type="Mario">
+                            <param id="0" name="Instance variable">IsActive</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="932715043420158">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="764169741796644" type="Keyboard">
+                                    <param id="0" name="Key">37</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="556963813355080" type="Mario">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="289534401592145">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="333376293703235" type="Keyboard">
+                                    <param id="0" name="Key">39</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="453711423335533" type="Mario">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="343396415143898">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="403636876504934" type="Mario">
+                                    <param id="0" name="Instance variable">IsBig</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="316215506243569">
+                                    <conditions>
+                                        <condition behavior="Platform" id="0" name="Is moving" sid="891696968184577" type="Mario" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="774736050151712" type="Mario">
+                                            <param id="0" name="Animation">&quot;SmallRunning&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="821258110506278">
+                                    <conditions>
+                                        <condition behavior="Platform" id="3" name="Is jumping" sid="102748504734327" type="Mario" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="804941170337913" type="Mario">
+                                            <param id="0" name="Animation">&quot;SmallJumping&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
